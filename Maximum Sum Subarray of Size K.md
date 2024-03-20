@@ -1,3 +1,5 @@
+# Maximum Sum Subarray of Size K - Sliding Window Approach
+
 # Problem Statement
 
 Given an integer array `Arr` of size `N` and an integer `K`, find the maximum sum of a subarray of size `K` in the given array.
@@ -53,29 +55,31 @@ The subarray with the maximum sum of size 2 is `[4, 5]`, with a sum of 9.
 3. **Implementation**
 
 ```cpp
-class Solution {
+ class Solution{   
 public:
-    long maximumSumSubarray(int K, vector<int>& Arr, int N) {
-        int start = 0;
+    long maximumSumSubarray(int K, vector<int> &Arr , int N){
+        // code here 
         int end = 0;
-        long max_sum = LONG_MIN;
-        long current_sum = 0;
-
-        while (end < N) {
+        int start = 0;
+        long current_sum = 0; // Changed to long for handling large sums
+        long maxi = LONG_MIN;
+        while(end < N){
             current_sum += Arr[end];
-
-            if (end - start + 1 == K) {
-                max_sum = max(max_sum, current_sum);
+            
+            if(end - start + 1 == K){
+                maxi = max(maxi, current_sum);
                 current_sum -= Arr[start];
                 start++;
             }
-
+            
             end++;
         }
-
-        return max_sum;
+        
+        return maxi; // Returning the sum of the maximum sum subarray
     }
 };
+
+
 ```
 
 ## Complexity Analysis
