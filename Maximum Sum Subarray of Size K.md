@@ -44,9 +44,9 @@ The subarray with the maximum sum of size 2 is `[4, 5]`, with a sum of 9.
    - Initialize a variable `max_sum` to store the maximum sum found so far and set it to the minimum possible value (e.g., `LONG_MIN`).
    - Initialize a variable `current_sum` to store the sum of the elements within the window and set it to 0.
    - Iterate through the array using the `end` pointer:
-     a. Add the current element to the `current_sum`.
-     b. If the window size is equal to `K`, update the `max_sum` with the maximum of `max_sum` and `current_sum`, and subtract the element at the `start` pointer from the `current_sum`.
-     c. Increment the `start` pointer to slide the window.
+     - a. Add the current element to the `current_sum`.
+     - b. If the window size is equal to `K`, update the `max_sum` with the maximum of `max_sum` and `current_sum`, and subtract the element at the `start` pointer from the `current_sum`.
+     - c. Increment the `start` pointer to slide the window.
 
 2. **Return**
 
@@ -61,7 +61,7 @@ public:
         // code here 
         int end = 0;
         int start = 0;
-        long current_sum = 0; // Changed to long for handling large sums
+        long current_sum = 0; 
         long maxi = LONG_MIN;
         while(end < N){
             current_sum += Arr[end];
