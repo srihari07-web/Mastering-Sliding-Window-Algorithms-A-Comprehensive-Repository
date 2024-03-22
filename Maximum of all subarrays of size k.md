@@ -67,7 +67,9 @@ Maximum of the only subarray of size 4:
 3. **Implementation**
 
 ```cpp
+
 class Solution
+
 {
   public:
     vector <int> max_of_subarrays(int *arr, int n, int k)
