@@ -67,38 +67,48 @@ Maximum of the only subarray of size 4:
 3. **Implementation**
 
 ```cpp
-class Solution {
-public:
-    vector<int> max_of_subarrays(int* arr, int n, int k) {
-        int end = 0;
-        int start = 0;
-        list<int> l;
-        vector<int> ans;
-
-        while (end < n) {
-
-            while (l.size() > 0 && arr[l.back()] < arr[end]) {
+class Solution
+{
+  public:
+    vector <int> max_of_subarrays(int *arr, int n, int k)
+    {
+        // your code here
+        int end =0;
+        int start =0;
+        list<int>l;
+        vector<int>ans;
+        
+        while(end < n){
+            
+            
+            
+            while(l.size()>0 && l.back() < arr[end]){
                 l.pop_back();
             }
-
-            l.push_back(end);
-
-            if (end - start + 1 < k) {
-                end++;
-            } else if (end - start + 1 == k) {
-                ans.push_back(arr[l.front()]);
-                if (l.front() == start) {
-                    l.pop_front();
-                }
-
-                start++;
+            
+            l.push_back(arr[end]);
+            
+            if(end-start+1 < k){
                 end++;
             }
+            
+            else if(end-start+1 == k){
+                ans.push_back(l.front());
+                if(l.front() == arr[start]){
+                    l.pop_front();
+                }
+                
+                 start++;
+                 end++;
+                
+            }
+            
+           
         }
-
+        
         return ans;
+        
     }
-};
 ```
 
 ## Complexity Analysis
