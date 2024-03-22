@@ -109,5 +109,5 @@ The space complexity is O(K), as the list `l` can store up to K elements.
 
 ## Additional Resources
 
-- [GeeksforGeeks - First Negative Integer in Every Window of Size K](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1)
-- [CodeLibrary's Tutorial on Sliding Window Algorithm](https://www.youtube.com/watch?v=Z5NHoo-KdxA) (Although this tutorial does not cover this specific problem, it provides a good foundation for understanding the sliding window approach.)
+- [GeeksforGeeks - First Negative Integer in Every Window of Size K](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1).
+- [CodeLibrary's Tutorial on Sliding Window Algorithm](https://www.youtube.com/watch?v=Z5NHoo-KdxA).
