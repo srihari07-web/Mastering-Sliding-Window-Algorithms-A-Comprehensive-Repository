@@ -19,7 +19,7 @@ All the code and resources in this repository are provided for educational purpo
 
 ## Video Credits
 
-The videos attached in this repository are from various creators and are not owned by the repository owner. The videos are used for educational purposes only, and all rights belong to their respective owners.
+The videos attached in this repository are from various creators and are not owned by me. The videos are used for educational purposes only, and all rights belong to their respective owners.
 
 ## Question Credits
 
