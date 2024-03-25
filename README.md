@@ -22,17 +22,22 @@ The sliding window pattern involves maintaining a window (a subarray or substrin
 - **Fixed-Size Window:** In this approach, the size of the window remains constant throughout the process.
 - **Variable-Size Window:** In this approach, the size of the window can change based on certain conditions or constraints defined by the problem.
 
-## Algorithms Implemented
+
+### Fixed-Size Window:
 
 1. **Count Occurrences of Anagrams:** Find all the start indices of p's anagrams in s.
 2. **First Negative Integer in Every Window of Size K:** Find the first negative integer for each window of size k in an array.
-3. **Longest K Unique Characters Substring:** Find the longest substring that contains only k unique characters.
-4. **Longest Sub-Array with Sum K:** Find the longest subarray with sum k.
-5. **Longest Substring Without Repeating Characters:** Find the length of the longest substring without repeating characters.
-6. **Maximum Sum Subarray of Size K:** Find the maximum sum of a subarray of size k.
-7. **Maximum of all subarrays of size k:** Find the maximum element for each window of size k in an array.
-8. **Minimum Window Substring:** Find the minimum window in s which will contain all the characters in t.
-9. **Permutation in String:** Check if one string is a permutation of another string.
+3. **Longest Sub-Array with Sum K:** Find the longest subarray with sum k.
+4. **Maximum Sum Subarray of Size K:** Find the maximum sum of a subarray of size k.
+5. **Maximum of all subarrays of size k:** Find the maximum element for each window of size k in an array.
+6. **Minimum Window Substring:** Find the minimum window in s which will contain all the characters in t.
+
+### Variable-Size Window:
+
+1. **Longest K Unique Characters Substring:** Find the longest substring that contains only k unique characters.
+2. **Longest Substring Without Repeating Characters:** Find the length of the longest substring without repeating characters.
+3. **Permutation in String:** Check if one string is a permutation of another string.
+
 
 ## Copyright
 
