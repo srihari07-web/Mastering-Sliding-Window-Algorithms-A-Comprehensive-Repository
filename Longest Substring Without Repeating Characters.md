@@ -53,13 +53,13 @@ The answer is "wke", with the length of 3.
    - Initialize an unordered map `mp` to store the frequency of characters in the current window.
    - Initialize a variable `maxi` to store the maximum length of the substring found so far.
    - Iterate through the string using the `end` pointer:
-     a. Add the current character to the `mp` map.
-     b. If the frequency of the current character in the `mp` map is greater than 1:
+     - a. Add the current character to the `mp` map.
+     - b. If the frequency of the current character in the `mp` map is greater than 1:
         i. Subtract the frequency of the character at the `start` pointer from the `mp` map.
         ii. If the frequency of the character at the `start` pointer becomes 0, remove the character from the `mp` map.
         iii. Increment the `start` pointer.
-     c. Update the `maxi` variable with the maximum of `maxi` and the current window size (`end - start + 1`).
-     d. Increment the `end` pointer.
+     - c. Update the `maxi` variable with the maximum of `maxi` and the current window size (`end - start + 1`).
+     - d. Increment the `end` pointer.
 
 2. **Return**
 
