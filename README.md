@@ -2,6 +2,12 @@
 
 This repository contains solutions to various problems using the sliding window approach. The sliding window approach is a powerful technique used to solve problems related to arrays, strings, and other data structures. The main idea behind this approach is to maintain a window of a specific size and slide it through the input data, performing calculations and updating the result as needed.
 
+
+<center>
+  <img src="Sliding Window Poster.png" alt="Sliding Window Poster" width="600" height="600" style="border-radius: 10px;" />
+</center>
+
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
