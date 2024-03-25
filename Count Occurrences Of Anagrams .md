@@ -43,13 +43,13 @@ Explanation:
    - Initialize a variable `count` to store the number of unique characters in the pattern `pat`.
    - Initialize a variable `ans` to store the count of anagrams found.
    - Iterate through the text using the `ending` pointer:
-     a. If the current character is in the pattern `pat`, decrement the frequency of the character in the map `mp` and decrement the `count` variable if the frequency becomes 0.
-     b. If the window size is smaller than the length of the pattern `pat`, increment the `ending` pointer.
-     c. If the window size is equal to the length of the pattern `pat`:
-        i. If the `count` variable is 0, increment the `ans` variable.
-        ii. Increment the frequency of the character at the `start` pointer in the map `mp`.
-        iii. If the frequency of the character at the `start` pointer becomes 1, increment the `count` variable.
-        iv. Increment the `start` pointer to slide the window.
+     - a. If the current character is in the pattern `pat`, decrement the frequency of the character in the map `mp` and decrement the `count` variable if the frequency becomes 0.
+     - b. If the window size is smaller than the length of the pattern `pat`, increment the `ending` pointer.
+     - c. If the window size is equal to the length of the pattern `pat`:
+        - i. If the `count` variable is 0, increment the `ans` variable.
+        - ii. Increment the frequency of the character at the `start` pointer in the map `mp`.
+        - iii. If the frequency of the character at the `start` pointer becomes 1, increment the `count` variable.
+        - iv. Increment the `start` pointer to slide the window.
 
 2. **Return**
 
