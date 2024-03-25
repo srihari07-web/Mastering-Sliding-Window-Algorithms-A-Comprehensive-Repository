@@ -12,6 +12,7 @@ The algorithms implemented in this repository are:
 6. [Maximum Sum Subarray of Size K](#maximum-sum-subarray-of-size-k)
 7. [Maximum of all subarrays of size k](#maximum-of-all-subarrays-of-size-k)
 8. [Minimum Window Substring](#minimum-window-substring)
+9. [Permutation in String](#permutation-in-string)
 
 ## Copyright
 
@@ -27,5 +28,4 @@ The questions used in this repository are taken from LeetCode and GeeksforGeeks,
 
 ## Code
 The code for each algorithm can be found in the corresponding markdown file in this repository. The markdown files also contain detailed explanations of the algorithms and their time and space complexities.
-
 
