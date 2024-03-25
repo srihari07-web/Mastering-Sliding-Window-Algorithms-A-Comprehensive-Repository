@@ -130,6 +130,6 @@ The space complexity is O(1) or O(26), as the frequency map `mp` has a fixed siz
 If you are struggling to solve the Minimum Window Substring problem on your own, I highly recommend following the tutorials provided by Aditya Verma and Prakash Shukla. Both of these resources provide clear and in-depth explanations of the problem and the sliding window approach used to solve it.
 
 These tutorials will help you understand the problem, the sliding window approach, and the implementation details required to solve the problem efficiently. Following these resources will provide you with a solid foundation to tackle similar problems in the future.
-                                                       (https://leetcode.com/problems/minimum-window-substring/)
+- [LeetCode Practice](https://leetcode.com/problems/minimum-window-substring/)
 - [Aditya Verma's Tutorial on Minimum Window Substring](https://youtu.be/iwv1llyN6mo?si=-GH40jrVkOtwNkDS)
 - [Prakash Shukla's Tutorial on Minimum Window Substring](https://www.youtube.com/watch?v=nMaKzLWceFg)
