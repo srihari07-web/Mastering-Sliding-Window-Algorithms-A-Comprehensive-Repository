@@ -2,10 +2,7 @@
 
 This repository contains solutions to various problems using the sliding window approach. The sliding window approach is a powerful technique used to solve problems related to arrays, strings, and other data structures. The main idea behind this approach is to maintain a window of a specific size and slide it through the input data, performing calculations and updating the result as needed.
 
-
 <img src="Sliding Window Poster.png" alt="Sliding Window Poster" width="400" height="400" style="border-radius: 10px;" />
-
-
 
 ## Table of Contents
 
@@ -22,7 +19,6 @@ The sliding window pattern involves maintaining a window (a subarray or substrin
 - **Fixed-Size Window:** In this approach, the size of the window remains constant throughout the process.
 - **Variable-Size Window:** In this approach, the size of the window can change based on certain conditions or constraints defined by the problem.
 
-
 ### Fixed-Size Window:
 
 1. **Count Occurrences of Anagrams:** Find all the start indices of p's anagrams in s.
@@ -31,13 +27,13 @@ The sliding window pattern involves maintaining a window (a subarray or substrin
 4. **Maximum Sum Subarray of Size K:** Find the maximum sum of a subarray of size k.
 5. **Maximum of all subarrays of size k:** Find the maximum element for each window of size k in an array.
 6. **Minimum Window Substring:** Find the minimum window in s which will contain all the characters in t.
+7. **Best Time to Buy and Sell Stock:** Find the maximum profit that can be made by buying and selling a stock at most once.
 
 ### Variable-Size Window:
 
 1. **Longest K Unique Characters Substring:** Find the longest substring that contains only k unique characters.
 2. **Longest Substring Without Repeating Characters:** Find the length of the longest substring without repeating characters.
 3. **Permutation in String:** Check if one string is a permutation of another string.
-
 
 ## Copyright
 
@@ -53,4 +49,3 @@ All the code and resources in this repository are provided for educational purpo
 The code for each algorithm can be found in the corresponding markdown file in this repository. The markdown files also contain detailed explanations of the algorithms and their time and space complexities.
 
 ---
-
