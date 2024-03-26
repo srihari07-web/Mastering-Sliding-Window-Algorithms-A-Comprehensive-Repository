@@ -40,13 +40,13 @@ There's no substring with 2 distinct characters.
    - Initialize an unordered map `charCount` to store the frequency of characters in the current window.
    - Initialize a variable `maxLength` to store the maximum length of the substring found so far.
    - Iterate through the string using the `end` pointer:
-     a. Add the current character to the `charCount` map.
-     b. If the size of the `charCount` map is greater than `K`:
-        i. Subtract the frequency of the character at the `start` pointer from the `charCount` map.
-        ii. If the frequency of the character at the `start` pointer becomes 0, remove the character from the `charCount` map.
-        iii. Increment the `start` pointer.
-     c. If the size of the `charCount` map is equal to `K`, update the `maxLength` variable with the maximum of `maxLength` and the current window size (`end - start + 1`).
-     d. Increment the `end` pointer.
+     - a. Add the current character to the `charCount` map.
+     - b. If the size of the `charCount` map is greater than `K`:
+        - i. Subtract the frequency of the character at the `start` pointer from the `charCount` map.
+        - ii. If the frequency of the character at the `start` pointer becomes 0, remove the character from the `charCount` map.
+        - iii. Increment the `start` pointer.
+     - c. If the size of the `charCount` map is equal to `K`, update the `maxLength` variable with the maximum of `maxLength` and the current window size (`end - start + 1`).
+     - d. Increment the `end` pointer.
 
 2. **Return**
 

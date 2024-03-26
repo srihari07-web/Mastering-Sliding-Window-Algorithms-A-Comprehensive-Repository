@@ -52,13 +52,13 @@ Maximum of the only subarray of size 4:
    - Initialize two pointers, `start` and `end`, to represent the beginning and end of the window, respectively.
    - Initialize a vector `ans` to store the maximum of each subarray.
    - Iterate through the array using the `end` pointer:
-     a. Remove elements from the back of the list `l` that are smaller than the current element.
-     b. Push the index of the current element to the back of the list `l`.
-     c. If the window size is smaller than `k`, increment the `end` pointer.
-     d. If the window size is equal to `k`:
-        i. Push the element at the front of the list `l` to the `ans` vector.
-        ii. If the element at the front of the list `l` is the element at the `start` pointer, pop the front element from the list `l`.
-        iii. Increment the `start` pointer and the `end` pointer.
+     - a. Remove elements from the back of the list `l` that are smaller than the current element.
+     - b. Push the index of the current element to the back of the list `l`.
+     - c. If the window size is smaller than `k`, increment the `end` pointer.
+     - d. If the window size is equal to `k`:
+        - i. Push the element at the front of the list `l` to the `ans` vector.
+        - ii. If the element at the front of the list `l` is the element at the `start` pointer, pop the front element from the list `l`.
+        - iii. Increment the `start` pointer and the `end` pointer.
 
 2. **Return**
 

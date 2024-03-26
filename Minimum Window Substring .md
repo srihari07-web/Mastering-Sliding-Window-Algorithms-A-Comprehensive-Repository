@@ -60,10 +60,10 @@ Since the largest window of s only has one 'a', return empty string.
    - Iterate through the string `s` using the `end` pointer:
      a. If the current character is in the pattern `t`, decrement the frequency of the character in the map `mp` and decrement the `count` variable if the frequency becomes 0.
      b. If the `count` variable is 0, meaning that all unique characters from the pattern `t` have been found:
-        i. Update the `min_length` and `min_start` variables if the current window size is smaller than the `min_length`.
-        ii. Increment the frequency of the character at the `start` pointer in the map `mp`.
-        iii. If the frequency of the character at the `start` pointer becomes 1, increment the `count` variable.
-        iv. Increment the `start` pointer to slide the window.
+        - i. Update the `min_length` and `min_start` variables if the current window size is smaller than the `min_length`.
+        - ii. Increment the frequency of the character at the `start` pointer in the map `mp`.
+        - iii. If the frequency of the character at the `start` pointer becomes 1, increment the `count` variable.
+        - iv. Increment the `start` pointer to slide the window.
 
 2. **Return**
 

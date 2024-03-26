@@ -48,10 +48,10 @@ Output:
      a. If the current element is negative, push it to the back of the list `l`.
      b. If the window size is smaller than `K`, increment the `end` pointer and continue to the next iteration.
      c. If the window size is equal to `K`:
-        i. If the list `l` is empty, push 0 to the `ans` vector.
-        ii. Otherwise, push the front element of the list `l` to the `ans` vector.
-        iii. If the element at the front of the list `l` is the element at the `start` pointer, pop the front element from the list `l`.
-        iv. Increment the `start` pointer.
+        - i. If the list `l` is empty, push 0 to the `ans` vector.
+        - ii. Otherwise, push the front element of the list `l` to the `ans` vector.
+        - iii. If the element at the front of the list `l` is the element at the `start` pointer, pop the front element from the list `l`.
+        - iv. Increment the `start` pointer.
 
 2. **Return**
 

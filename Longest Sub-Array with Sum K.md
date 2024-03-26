@@ -46,11 +46,11 @@ There is no such sub-array with sum 6.
      b. If the `sum` is equal to `K`, update the `maxi` variable with the maximum of `maxi` and the current window size (`end - start + 1`).
      c. If the `sum` is smaller than `K`, increment the `end` pointer.
      d. If the `sum` is greater than `K`:
-        i. Subtract the element at the `start` pointer from the `sum`.
-        ii. Increment the `start` pointer.
-        iii. Repeat steps i and ii until the `sum` is smaller than or equal to `K`.
-        iv. If the `sum` is equal to `K`, update the `maxi` variable with the maximum of `maxi` and the current window size (`end - start + 1`).
-        v. Increment the `end` pointer.
+        - i. Subtract the element at the `start` pointer from the `sum`.
+        - ii. Increment the `start` pointer.
+        - iii. Repeat steps i and ii until the `sum` is smaller than or equal to `K`.
+        - iv. If the `sum` is equal to `K`, update the `maxi` variable with the maximum of `maxi` and the current window size (`end - start + 1`).
+        - v. Increment the `end` pointer.
 
 2. **Return**
 
