@@ -21,20 +21,20 @@ The sliding window pattern involves maintaining a window (a subarray or substrin
 
 ### Fixed-Size Window:
 
-1. **Count Occurrences of Anagrams:** Find all the start indices of p's anagrams in s. (aligned properly, last updated 2 weeks ago)
-2. **First Negative Integer in Every Window of Size K:** Find the first negative integer for each window of size k in an array. (verified, last updated 2 weeks ago)
-3. **Longest Sub-Array with Sum K:** Find the longest subarray with sum k. (verified, last updated 2 weeks ago)
-4. **Maximum Sum Subarray of Size K:** Find the maximum sum of a subarray of size k. (Maximum Sum Subarray of Size K, last updated 3 weeks ago)
-5. **Maximum of all subarrays of size k:** Find the maximum element for each window of size k in an array. (verified, last updated 2 weeks ago)
-6. **Minimum Window Substring:** Find the minimum window in s which will contain all the characters in t. (verified, last updated 2 weeks ago)
-7. **Best Time to Buy and Sell Stock:** Find the maximum profit that can be made by buying and selling a stock at most once. (Added, last updated 2 weeks ago)
-8. **Maximum Average Subarray:** Find the maximum average value of a subarray of size k. (updated, last updated 2 hours ago)
+1. **Count Occurrences of Anagrams:** Find all the start indices of p's anagrams in s.
+2. **First Negative Integer in Every Window of Size K:** Find the first negative integer for each window of size k in an array.
+3. **Longest Sub-Array with Sum K:** Find the longest subarray with sum k.
+4. **Maximum Sum Subarray of Size K:** Find the maximum sum of a subarray of size k. 
+5. **Maximum of all subarrays of size k:** Find the maximum element for each window of size k in an array. 
+6. **Minimum Window Substring:** Find the minimum window in s which will contain all the characters in t. 
+7. **Best Time to Buy and Sell Stock:** Find the maximum profit that can be made by buying and selling a stock at most once. 
+8. **Maximum Average Subarray:** Find the maximum average value of a subarray of size k. 
 
 ### Variable-Size Window:
 
-1. **Longest K Unique Characters Substring:** Find the longest substring that contains only k unique characters. (verified, last updated 2 weeks ago)
-2. **Longest Substring Without Repeating Characters:** Find the length of the longest substring without repeating characters. (verified, last updated 2 weeks ago)
-3. **Permutation in String:** Check if one string is a permutation of another string. (links updated, last updated 2 weeks ago)
+1. **Longest K Unique Characters Substring:** Find the longest substring that contains only k unique characters.
+2. **Longest Substring Without Repeating Characters:** Find the length of the longest substring without repeating characters.
+3. **Permutation in String:** Check if one string is a permutation of another string. 
 
 ## Copyright
 
